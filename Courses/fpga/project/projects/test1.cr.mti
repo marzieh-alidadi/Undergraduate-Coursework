@@ -1,0 +1,36 @@
+F:/CLASS/fpga/projects/comp8.v {1 {vlog -work work -vopt -stats=none F:/CLASS/fpga/projects/comp8.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module comp8
+
+Top level modules:
+	comp8
+
+} {} {}} F:/CLASS/fpga/projects/comp4.v {1 {vlog -work work -vopt -stats=none F:/CLASS/fpga/projects/comp4.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module comp4
+
+Top level modules:
+	comp4
+
+} {} {}} F:/CLASS/fpga/projects/counter_up.v {1 {vlog -work work -vopt -stats=none F:/CLASS/fpga/projects/counter_up.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module counter_up
+
+Top level modules:
+	counter_up
+
+} {} {}} F:/CLASS/fpga/projects/comp8_tb.v {1 {vlog -work work -vopt -stats=none F:/CLASS/fpga/projects/comp8_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module comp8_TB
+
+Top level modules:
+	comp8_TB
+
+} {} {}} F:/CLASS/fpga/projects/counter_tb.v {1 {vlog -work work -vopt -stats=none F:/CLASS/fpga/projects/counter_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}}

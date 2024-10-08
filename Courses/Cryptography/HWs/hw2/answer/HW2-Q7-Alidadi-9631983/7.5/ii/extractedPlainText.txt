@@ -1,0 +1,18 @@
+Symmetric encryption ciphers consist of two main categories: block ciphers and stream ciphers. We’ll define and break down the processes of each, and provide block and stream cipher examples to give you a closer look at the technologies that keep your data safe.
+Understanding the difference between a block cipher vs stream cipher is kind of like the difference between watching a movie on DVD or via a streaming service. Sure, both will give you the entertainment you seek, but they each work differently in terms of mechanics and speed.
+Block Cipher vs Stream Cipher:
+Block and stream ciphers are two ways that you can encrypt data. Also known as bulk ciphers, they’re two categories of symmetric encryption algorithms. (Reminder: with symmetric encryption, you use the same key to encrypt and decrypt data.) Block and stream ciphers are two separate routes to the same end goal of securing your data. The big difference between the two is how the data gets encrypted — and there are advantages and disadvantages to each method — and the types of environments they operate in.
+For now, let’s break down what these ciphers are in general and how they work.
+Block ciphers and stream ciphers are two separate methods of encrypting data with symmetric encryption algorithms:
+1. Encrypting information in chunks. A block cipher breaks down plaintext messages into fixed-size blocks before converting them into ciphertext using a key.
+2. Encrypting information bit-by-bit. A stream cipher, on the other hand, breaks a plaintext message down into single bits, which then are converted individually into ciphertext using key bits.
+(Note: some people say stream ciphers encrypt data by individual bits, others say by bytes [8 bits]. So, I’ll just stick with saying individual bits for the sake of ease in this article.)
+If you want a simple analogy to better understand a block cipher vs stream cipher, imagine you’re encrypting a book. You could encrypt the content one page at a time (block cipher) or one letter at a time (stream cipher).
+Of course, both processes are more complicated than that, but that gives you a basic idea of what they are and what they do. According to Jean-Philippe Aumasson in his book “Serious Cryptography: A Practical Introduction to Modern Encryption”:
+“[…] block ciphers mix chunks of plaintext bits together with key bits to produce chunks of ciphertext of the same size, usually 64 or 128 bits. Stream ciphers, on the other hand, don’t mix plaintext and key bits; instead, they generate pseudorandom bits from the key and encrypt the plaintext by XORing it with the pseudorandom bits[.]”
+If that was clear as mud, no worries. We’ll dive more into the nitty-gritty technical side of things shortly. But first, where would you find these types of ciphers in use? Look no further than the technologies around you.
+Block ciphers are the algorithms that form the backbone of many of the cryptographic technologies and processes that are in use today in computer communications. Basically, you can find block ciphers just about anywhere in cyber security.
+Where stream ciphers are concerned, they’re not as well studied. However, you’ll find stream ciphers in use in:
+1. SSL/TLS connections
+2. Bluetooth connections
+3. Cellular and 4G connections

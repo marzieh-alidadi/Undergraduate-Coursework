@@ -1,0 +1,10 @@
+first ---> active keyword omition          DONE+++
+second ---> function detection ----> function writing to to file          DONE+++
+third ---> function reading from file ---> c_blocks proc reference omition          DONE+++
+fourth ---> function reading from file ---> proc run edition          DONE+++
+fifth ---> function reading from file ---> chan out adding at first ---> chan out setting at last          DONE+++
+sixth ---> c_blocks omition ---> chan control adding to run proc part          DONE+++
+seventh ---> space reduction          SOON**
+final ---> makefile
+		
+

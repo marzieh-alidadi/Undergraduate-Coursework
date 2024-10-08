@@ -1,0 +1,1 @@
+modelsim.exe -do comm.tcl
