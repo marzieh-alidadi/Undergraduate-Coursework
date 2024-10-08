@@ -1,1 +1,1 @@
-# Undergraduate-Coursework
+# Undergraduate Coursework
